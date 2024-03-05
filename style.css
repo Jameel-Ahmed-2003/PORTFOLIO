@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+* body {
+  display: flex;
+}
+* body header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  min-width: 200px;
+  width: 15vw;
+  height: 100vh;
+  background: #BC5C38;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+* body header img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 8px solid #cc937f;
+}
+* body header nav ul li a {
+  text-decoration: none;
+  color: #D8B0A5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+* body header nav ul :hover {
+  color: white;
+}
+* body header nav ul :not(:nth-of-type(6)) {
+  padding-top: 20px;
+}
+* body header nav ul :active {
+  color: white;
+}
+* body .container {
+  width: 85vw;
+}
+* body .container #about {
+  height: 100vh;
+  padding-left: 4vw;
+}
+* body .container #about hgroup {
+  padding-top: 30vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #343A40;
+  font-size: 20px;
+}
+* body .container #about hgroup h1 {
+  font-size: 70px;
+}
+* body .container #about hgroup h1 span {
+  color: #BC5C38;
+}
+* body .container #about hgroup address {
+  font-style: normal;
+  display: inline;
+  font-family: "Roboto Slab", serif;
+}
+* body .container #about hgroup a {
+  text-decoration: none;
+}
+* body .container #about hgroup a[href="tel:7305851019"] {
+  color: #343A40;
+  font-weight: bold;
+}
+* body .container #about hgroup a[href="mailto:jameelahmedj2003@gmail.com"] {
+  color: #BC5C38;
+  text-transform: uppercase;
+}
+* body .container #about hgroup a[href="mailto:jameelahmedj2003@gmail.com"] + p {
+  padding-top: 30px;
+  width: 70vw;
+}
+* body .container #about .icons {
+  padding-top: 30px;
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+}
+* body .container #about .icons .round {
+  background-color: lightgrey;
+  background-color: #343A40;
+  border-radius: 50%;
+}
+* body .container #about .icons .round a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+* body .container #about .icons .round a i {
+  border-radius: 50%;
+  padding: 10px;
+}
+* body .container #about .icons .round a :hover {
+  background-color: #BC5C38;
+}
+* body .container #education {
+  height: 100vh;
+  padding-left: 4vw;
+}
+* body .container #education hgroup {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #343A40;
+  font-size: 20px;
+  padding-top: 30vh;
+  width: 60vw;
+}
+* body .container #education hgroup h1 {
+  margin-bottom: 30px;
+}
+* body .container #education hgroup .collegeYear h4 {
+  color: #BC5C38;
+}
+* body .container #education hgroup h4 {
+  font-weight: normal;
+  font-size: 25px;
+  color: #6C757D;
+}
+* body .container #education hgroup p {
+  color: #6C757D;
+  margin-top: 20px;
+}
+* body .container #education hgroup .schoolYear {
+  margin-top: 20px;
+  width: 60vw;
+}
+* body .container #education hgroup .schoolYear h2 {
+  text-transform: uppercase;
+}
+* body .container #education hgroup .schoolYear h4 {
+  color: #BC5C38;
+}
+* body .container #skills {
+  height: 100vh;
+  padding-left: 4vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6C757D;
+}
+* body .container #skills h1 {
+  padding-top: 30vh;
+  color: #343A40;
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+* body .container #skills h2 {
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+* body .container #skills #skillIcons {
+  font-size: 55px;
+}
+* body .container #skills i:hover {
+  color: #BC5C38;
+  cursor: pointer;
+}
+* body .container #skills ul[id=workflow] {
+  list-style-type: "✓";
+  padding-left: 1vw;
+  font-size: 18px;
+}
+* body .container #work {
+  padding: 10px;
+}
+* body .container #work .fixed {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-bottom: 30px;
+  background-color: white;
+}
+* body .container #certifications {
+  height: 100vh;
+  padding: 10px;
+}
+* body .container #certifications .fixed {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-bottom: 30px;
+  background-color: white;
+}
+* body .container #certifications #certificate button {
+  display: block;
+  margin-bottom: 20px;
+}
+* body .container #certifications #certificate button > a {
+  color: white;
+}
+* body .container #certifications #certificate :hover {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

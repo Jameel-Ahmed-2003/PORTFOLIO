@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="node_modules\boxicons\css\boxicons.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="Jameel.jpg" alt="">
+        <nav class="navigation">
+            <ul type="none">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#certifications">CERTIFICATIONS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="about">
+            <hgroup>
+                <h1>JAMEEL <span>AHMED</span></h1>
+                <address>No 3/195, Kamaraj Street, Neelangarai, Chennai-600115</address>
+                <a href="tel:7305851019">( 91 )7305851019</a>
+                <a href="mailto:jameelahmedj2003@gmail.com">jameelahmedj2003@gmail.com</a>
+                <p>Prefinal Year B.E. in Electronics and Communication Engineering Student</p>
+                <ul type="none">
+                    <li>Passionate about technology and creativity.</li>
+                    <li>Proficient in HTML, CSS, SASS and JavaScript.</li>
+                    <li>Strong understanding of C, C++, and Java.</li>
+                    <li>Learning React to enhance web development.</li>
+                    <li>Believes in continuous learning and staying updated with technology trends.</li>
+                    <li></li>
+                </ul>
+                <button class="btn btn-info"><a style="color:black;font-weight: bolder;" href="LeetCV.pdf" download>DOWNLOAD RESUME</a></button>
+            </hgroup>
+            <div class="icons" id="icons">
+
+            </div>
+        </div>
+        <hr>
+        <div id="education">
+            <hgroup>
+                <h1 style="font-size: 45px;">EDUCATION</h1>
+                <div class="collegeYear" style="display: flex;justify-content: space-between;align-items: center;">
+                    <h2>ST. JOSEPH'S COLLEGE OF ENGINEERING</h2>
+                    <h4>November 2021 - May 2025</h4>
+                </div>
+                <h4>BACHELOR OF ENGINEERING</h4>
+                <p>Electronics and Communication Engineering<br><abbr style="text-decoration: none;"
+                        title="Grade Point Average">CGPA</abbr>: 7.653</p>
+                <div class="schoolYear" style="display: flex;justify-content: space-between;align-items: center;">
+                    <h2>Manuelmony Matric Higher Secondary</h2>
+                    <h4>June 2020 - March 2021</h4>
+                </div>
+                <h4>Physics Chemistry Maths</h4>
+                <p>Grade: 86%</p>
+            </hgroup>
+        </div>
+        <hr>
+        <div id="skills">
+            <h1>SKILLS</h1>
+            <h2>PROGRAMMING LANGUAGES AND TOOLS</h2>
+            <div id="skillIcons">
+            </div>
+            <h1 style="font-size: 30px;padding-top: 10px;margin-bottom: 0;padding-bottom:5px;">Workflow</h1>
+            <ul id="workflow">
+                <li>Responsive Web Design</li>
+                <li>Version Control</li>
+                <li>Wireframes</li>
+                <li>Prototyping</li>
+                <li>SEO</li>
+            </ul>
+        </div>
+        <hr>
+        <div id="work">
+            <h1 class="text-center fixed">My Latest Projects</h1>
+            <div id="projects" class="row">
+            </div>
+        </div>
+        <hr>
+        <div id="certifications">
+            <h1 class="text-center fixed">Certifications</h1>
+            <h2 class="text-left">Click the below link to view the certificate</h2>
+            <div id="certificate" class="row">
+                <button class="btn btn-primary"><a href="https://drive.google.com/file/d/1-LEluEmm3mN9Xn1rgxvo9FVBLA9Okc8C/view?usp=sharing" target="_blank" download>Junior Grade Typewriting English</a>
+                </button>
+                <button class="btn btn-primary"><a href="https://drive.google.com/file/d/1JQxKkcVpI5lX-HCabEAM_1hfJ9sG01oJ" target="_blank" download>Business English Certificate Vantage</a>
+                </button>
+                <button class="btn btn-primary"><a href="https://drive.google.com/file/d/1rIMiNqng3iusyRFFt9_SELqrB-xeT0fO/view?usp=sharing" target="_blank" download>Introduction to Front-End Development by Meta</a>
+                </button>
+                <button class="btn btn-primary"><a href="https://drive.google.com/file/d/16e4fMKaf2zQhXdlpWuJF3J5Oy72_4QrC/view?usp=sharing" target="_blank" download>Webflow 101 Certification</atle=>
+                </button>
+                <button class="btn btn-primary"><a href="https://drive.google.com/file/d/123EdSFZEqc0CBStBcnKKHSjZBMwF1c4k/view?usp=sharing" target="_blank" download>No code responsive website with webflow</a>
+                </button>
+                <button class="btn btn-primary"><a href="https://drive.google.com/file/d/1ZCQlt6fLW6PyHfW0DCs35Qy0aH_DC6Sk/view?usp=sharing" target="_blank" download>Responsive Web Design</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const icons = document.getElementById('icons');
+        const skillicons = document.getElementById('skillIcons');
+        const projects = document.getElementById('projects');
+        let socialmediaIcons = [{
+            socialMedia: "gitHub",
+            href: "https://github.com/Jameel-Ahmed-2003",
+            iconLink: "bx bxl-github"
+        },
+        {
+            socialMedia: "linkedIn",
+            href: "https://www.linkedin.com/in/jameel2003ahmed/",
+            iconLink: "bx bxl-linkedin"
+        },
+        {
+            socialMedia: "medium",
+            href: "https://medium.com/@jameelahmedj2003",
+            iconLink: "bx bxl-medium"
+        },
+        {
+            socialMedia: "devCommunity",
+            href: "https://dev.to/jameelahmed2003",
+            iconLink: "bx bxl-dev-to"
+        }
+        ];
+        let skillIcons = [{
+            skillName: "html",
+            iconlink: "bx bxl-html5"
+        }, {
+            skillName: "css",
+            iconlink: "bx bxl-css3"
+        },
+        {
+            skillName: "sass",
+            iconlink: "bx bxl-sass"
+        }, {
+            skillName: "bootstrap",
+            iconlink: "bx bxl-bootstrap"
+        }, {
+            skillName: "figma",
+            iconlink: "bx bxl-figma"
+        }];
+        let projectsMenu = [
+            {
+                projectName: "digitalClock",
+                thumbnailImage: "projects/images/clck.jpg",
+                heading: "DIGITAL CLOCK",
+                description: "", previewLink: "Clock/RTC.html",
+                sourceCodeLink: "Clock"
+            },
+            {
+                projectName: "temperatureConverter",
+                thumbnailImage: "projects/images/temp.jpg",
+                heading: "TEMPERATURE CONVERTER",
+                description: "", previewLink: "Temperature Converter/temp_converter.html",
+                sourceCodeLink: "Temperature Converter"
+            },
+            {
+                projectName: "SJCElandingPage",
+                thumbnailImage: "projects/images/land.jpg",
+                heading: "SJCE",
+                description: "",
+                previewLink: "SJCE/sjce.html",
+                sourceCodeLink: "SJCE"
+            },
+            {
+                projectName: "codebindlandingPage",
+                thumbnailImage: "projects/images/cdbnd.png",
+                heading: "Codebind Technologies",
+                description: "",
+                previewLink: "Codebind Technologies/Codebind_techonologies.html",
+                sourceCodeLink: "Codebind Technologies"
+            },
+            {
+                projectName: "animatedlandingPage",
+                thumbnailImage: "projects/images/car.gif",
+                heading: "ANIMATED LANDING PAGE",
+                description: "",
+                previewLink: "Ford/car_animation.html",
+                sourceCodeLink: "Ford"
+            },
+            {
+                projectName: "counter",
+                thumbnailImage: "projects/images/counter.png",
+                heading: "COUNTER",
+                description: "",
+                previewLink: "Counter/counter.html",
+                sourceCodeLink: "Counter"
+            },
+            {
+                projectName: "form",
+                thumbnailImage: "projects/images/form.jpg",
+                heading: "FORM",
+                description: "",
+                previewLink: "Application Form/form.html",
+                sourceCodeLink: "Application Form"
+            },
+            {
+                projectName: "",
+                thumbnailImage: "projects/images/resume_template.jpg",
+                heading: "PORTFOLIO",
+                description: "",
+                previewLink: "portfolio/portfolio2mobileview.html",
+                sourceCodeLink: "portfolio"
+            },
+            {
+                projectName: "porsche",
+                thumbnailImage: "projects/images/porschelogo.png",
+                heading: "PORSCHE",
+                description: "",
+                previewLink: "Porsche/porsche.html",
+                sourceCodeLink: "#"
+            },
+            {
+                projectName: "calci",
+                thumbnailImage: "projects/images/calci-bg.png",
+                heading: "CALCULATOR",
+                description: "",
+                previewLink: "Calculator/calci.html",
+                sourceCodeLink: "#"
+            },
+            {
+                projectName: "todolist",
+                thumbnailImage: "projects/images/todo-icon.png",
+                heading: "TODO LIST",
+                description: "",
+                previewLink: "To do list/todolist.html",
+                sourceCodeLink: "#"
+            },
+            {
+                projectName: "footwear",
+                thumbnailImage: "projects/images/indian-footwear-logo.png",
+                heading: "INDIAN FOOTWEAR",
+                description: "",
+                previewLink: "Indian Footwear/indian-footwear.html",
+                sourceCodeLink: "Indian Footwear"
+            },
+            {
+                projectName: "ptmobile",
+                thumbnailImage: "projects/images/resume_template.jpg",
+                heading: "PORTFOLIO",
+                description: "",
+                previewLink: "Portfolio/Portfolio-youtube.html",
+                sourceCodeLink: "Portfolio"
+            },
+            {
+                projectName: "ferrari",
+                thumbnailImage: "projects/images/title icon.jpg",
+                heading: "FERRARI",
+                description: "",
+                previewLink: "Ferrari/ferrari_web.html",
+                sourceCodeLink: "Ferrari"
+            },
+            {
+                projectName: "food",
+                thumbnailImage: "projects/images/img3.jpeg",
+                heading: "BILAL BIRYANI",
+                description: "",
+                previewLink: "Bilal Biryani/bilalBiryani.html",
+                sourceCodeLink: "Bilal Biryani"
+            },
+            {
+                projectName:'Calendar',
+                thumbnailImage:'projects/images/Calendar.png',
+                heading:'CALENDAR',
+                description:'',
+                previewLink:'https://jameels-practice-site.webflow.io/',
+                sourceCodeLink:'#'
+            },
+            {
+                projectName:'trendy site',
+                thumbnailImage:'projects/images/trendy site.png',
+                heading:'TRENDY SITE',
+                description:'',
+                previewLink:'https://jameels-awesome-site.webflow.io/',
+                sourceCodeLink:'#'
+            },
+            {
+                projectName:'portFolio',
+                thumbnailImage:'portfolio/images/template.jpg',
+                heading:'PORTFOLIO',
+                description:'',
+                previewLink:'portfolio/portfolio2.html',
+                sourceCodeLink:'#'
+            },
+            {
+                projectName:'facebook',
+                thumbnailImage:'projects/images/fb.webp',
+                heading:'FACEBOOK',
+                description:'',
+                previewLink:'facebook/login.html',
+                sourceCodeLink:'facebook'
+            }
+        ]
+        let generateIcons = () => {
+            return (icons.innerHTML = socialmediaIcons.map((x) => {
+                let { socialMedia, href, iconLink } = x;
+                return `<div class="round" id="${socialMedia}"><a href="${href}"><i class='${iconLink}'></i></a></div>`
+            }).join(""));
+        };
+        let generateSkills = () => {
+            return (skillicons.innerHTML = skillIcons.map((y) => {
+                let { skillName, iconlink } = y;
+                return `<i class='${iconlink}' id='${skillName}'></i>`
+            }).join(""));
+        }
+        let generateProjects = () => {
+            return (projects.innerHTML = projectsMenu.map((z) => {
+                let { projectName, thumbnailImage, heading, description, previewLink, sourceCodeLink } = z;
+                return `<div class="col-sm-6 col-md-3">
+                    <div class="thumbnail" id="${projectName}">
+                        <img src="${thumbnailImage}" style="width:100%;height:300px" alt="">
+                        <h3 class="text-center">${heading}</h3>
+                        <p>${description}</p>
+                        <p>
+                            <a href="${previewLink}" target='_blank'><button class="btn btn-primary">PREVIEW</button></a>
+                            <a href="#" target='_blank'><button class="btn btn-success">GET SOURCE CODE</button></a>
+                        </p>
+                    </div>
+                </div>`
+            }).join(""));
+        }
+        generateIcons();
+        generateSkills();
+        generateProjects();
+    </script>
+    <!-- https://startbootstrap.com/previews/resume -->
+</body>
+
+</html>
